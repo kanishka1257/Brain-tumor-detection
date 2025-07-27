@@ -1,8 +1,8 @@
-# 🧠 Brain Tumor Detection Using Deep Learning
+# Brain Tumor Detection Using Deep Learning
 
 This project aims to classify brain MRI images for tumor detection using Convolutional Neural Networks (CNNs). It helps in identifying four types of cases: **Glioma**, **Meningioma**, **Pituitary Tumor**, and **No Tumor**, improving speed and accuracy in medical diagnoses.
 
-## 📌 Objectives
+## Objectives
 - Load and preprocess MRI image data
 - Augment data using zoom techniques
 - Build and train a CNN model
@@ -10,7 +10,7 @@ This project aims to classify brain MRI images for tumor detection using Convolu
 - Predict tumor type from new MRI images
 - Save and export the trained model
 
-## 🧪 Dataset
+## Dataset
 Dataset sourced from Kaggle with **7023 MRI images**, divided as:
 
 ### Training Set:
@@ -25,17 +25,17 @@ Dataset sourced from Kaggle with **7023 MRI images**, divided as:
 - Pituitary: 300 images  
 - No Tumor: 405 images  
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - TensorFlow / Keras
 - Google Colab
 - OpenCV
 - NumPy, Matplotlib
 
-## 📈 Results
+## Results
 Model trained and evaluated using Google Colab, achieving high accuracy in classifying brain tumors. The final model can be used to analyze new MRI images.
 
-## 📚 References
+## References
 - S. Deepak, P.M. Ameer, "Brain tumor classification using deep CNN features via transfer learning", Elsevier, 2019.
 - G.Hemanth, M.Janardhan, L.Sujihelen, "Brain tumor detection using machine learning", IEEE, 2019.
 - And more listed in the presentation.
